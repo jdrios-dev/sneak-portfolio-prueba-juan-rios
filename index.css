@@ -168,6 +168,15 @@
   cursor: pointer;
 }
 
+@media ( max-width: 768px) {
+
+  .icons-grid-style__container img {
+    width: 30px;
+    margin: 5px 20px;
+  }
+
+}
+
 /* END ICONS GRID */
 
 
