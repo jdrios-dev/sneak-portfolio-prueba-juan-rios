@@ -17,12 +17,13 @@ Open index.html file on your browser
 
 ## Deploy 📦
 
-* https://sneak-portfolio-prueba-juan-rios.vercel.app/
+* https://jdrios-dev.github.io/sneak-portfolio-prueba-juan-rios/
 
 ## Built with 🛠️
 
-* [React]
-* [Sass]
+* [HTML]
+* [CSS]
+* [JavaScript]
 
 ## Team Frontend ✒️
 
