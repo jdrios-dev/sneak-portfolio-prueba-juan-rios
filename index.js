@@ -20,6 +20,7 @@ function allPortfolio(category) {
 
 allPortfolio(data.brand)
 allPortfolio(data.web)
+allPortfolio(data.photo)
 allPortfolio(data.mobile)
 
 const displayItems = ((items) => {
