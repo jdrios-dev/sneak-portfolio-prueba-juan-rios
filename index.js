@@ -1,6 +1,8 @@
 import { data } from './mock.js';
 
 const galleryContainer = document.getElementById('galleryContainer');
+const gridStyle = document.getElementById('gridStyle');
+const rowStyle = document.getElementById('rowStyle');
 
 const dataAll = document.getElementsByClassName('dataAll');
 const dataBrand = document.getElementsByClassName('dataBrand');
@@ -46,5 +48,18 @@ dataPhoto[0].addEventListener('click', function() { displayItems(data.photo)}, f
 dataPhoto[1].addEventListener('click', function() { displayItems(data.photo)}, false );
 dataMobile[0].addEventListener('click', function() { displayItems(data.mobile)}, false );
 dataMobile[1].addEventListener('click', function() { displayItems(data.mobile)}, false );
+
+function addRowClass () {
+  galleryContainer.classList.add('gallery__container--rows');
+  galleryContainer.classList.remove('gallery__container');
+}
+
+function removeRowClass () {
+  galleryContainer.classList.remove('gallery__container--rows');
+  galleryContainer.classList.add('gallery__container');
+}
+
+gridStyle.addEventListener('click', function(){ removeRowClass() }, false)
+rowStyle.addEventListener('click', function(){ addRowClass() }, false)
 
 displayItems(all)
