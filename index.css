@@ -300,6 +300,21 @@
 
 /* END GALLERY */
 
+/* FOOTER */
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  color: var(--text-color);
+  margin: 0 auto;
+  padding: 50px ;
+}
+
+.footer__container span {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
 
 /* SCROLLBAR */
 
